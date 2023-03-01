@@ -104,7 +104,7 @@
     left:0;
     z-index: 1;
     top:8.35%;
-    border-bottom: 0.1px rgb(243, 216, 216) solid;
+    box-shadow: 0px 15px 10px -15px #111; 
 }
 .cat-div{
     width: fit-content;
