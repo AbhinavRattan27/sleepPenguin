@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleepPenguin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="cute-little-penguin-sleep-doodle-cartoon-vector.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"></head>
+<body>
+    <div class="bar">
+        <h1 class="offer-text">Offer Alert: Flat 15% off on all products | 72-hour delivery available for select pincodes in Delhi NCR, Bangalore, Mumbai & Kolkata
+            </h1>
+    </div>
+
+
+    <div class="main-nav" onscroll="padding()">
+
+
+<div class="cat-div">
+        <a><image class="cat-logo" src="Sleeping Penguin JPG.png" ></image></a>
+    </div>
+        <div class="search-bar" onclick="disappear()" id="hh">
+            <h1 class="bar-text" id="text">Search Products</h1>
+            <div class="search-div">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bibi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>  </div>
+        </div>
+
+        <div class="store">
+            
+            <div class="color">
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="currentColor" class="bibi-shop-window" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+          <h5 class="store-text">Stores and Experiences<br>Explore our Stores</h5>
+        </div>
+
+        </div>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="40" fill="currentColor" class="bibi-person" viewBox="0 0 16 16">
+    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+  </svg>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="27" height="40" fill="currentColor" class="bibi-cart" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </svg>
+    </div>
+
+
+    <div class="second-nav">
+
+<div class="mattress d">
+<h4 class="mattress-h4">MATTRESS</h4>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+  </svg>
+</div>
+<div class="pillow d">
+   <h4 class="pillow-h4">PILLOWS</h4>
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+  </svg>
+</div>
+<div class="bed d">
+    <h4 class="bed-h4">BED</h4>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+      </svg>
+</div>
+<div class="bedding d">
+    <h4 class="bedding-h4">BEDDING</h4>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+      </svg>
+</div>
+<div class="babyrange d">
+    <h4 class="babyrange-h4">BABY RANGE</h4>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+      </svg>
+</div>
+<div class="bundles d">
+    <h4 class="bundles-h4">BUNDLES</h4>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+      </svg>
+</div>
+<div class="limitededition d">
+  <h4 class="limitededition-h4">LIMITED EDITION</h4>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+  </svg>
+</div>
+<div class="helpmechoose d">
+  <h4 class="hmc-h4">HELP ME CHOOSE</h4>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+  </svg></div>
+<div class="more d">
+  <h4 class="more-h4">MORE</h4>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+  </svg>
+</div>
+
+ </div>
+
+
+ <div class="outerslider">
+<image class="carousel" src="Screenshot 2023-02-23 at 3.03.35 PM (1).png"></image>
+ <div class="italic-text-div">
+  <h1 class="italic-text">Browse our dreamy sleep range</h1>
+ </div>
+ 
+
+ <div class="four-divs">
+
+  <div class="first-div">
+<image class="first-div-image" src="http://cdn.shopify.com/s/files/1/0195/9342/products/SundayOrthoPlusMattress_1200x1200.png?v=1599625473"></image>
+<div class="text-first-div">
+  <center>
+  <h1 class="mattresses">Mattresses</h1>
+</center>
+</div>
+  </div>
+
+  <div class="second-div">
+<image class="second-div-image" src="https://sleepycat.in/wp-content/uploads/2022/04/Gallery-3-1.jpg"></image>
+<div class="text-second-div">
+  <center>
+    <h1 class="pillows">Pillows</h1>
+   </center>
+</div>
+
+  </div>
+
+
+  <div class="second-div">
+<image class="second-div-image" src="https://m.media-amazon.com/images/I/71ZMarSyR9L.jpg"></image>
+<div class="text-second-div">
+  <center>
+    <h1 class="pillows">Bedding</h1>
+  </center>
+</div>
+ </div>
+
+ <div class="second-div">
+  <image class="second-div-image ss" src="https://sleepycat.in/wp-content/uploads/2022/08/Bachelors-bundle-revised.jpeg"></image>
+  <div class="text-second-div">
+    <center>
+      <h1 class="pillows">Bundles</h1>
+    </center>
+  </div>
+ </div>
+ </div>
+
+ <div class="button-div">
+  <button type="button" class="btn">BROWSE ALL PRODUCTS</button>
+ </div>
+
+ <section class="fp">
+  <center>
+<h1 class="fp-text">Featured Products</h1>
+</center>
+
+<div class="four-divs-2">
+
+
+
+  <div class="first-div-2 hss">
+<image class="first-img" src="https://sleepycat.in/wp-content/uploads/2020/09/main-description.jpg"></image>
+<div class="flex-div">
+<div class="stars-div">
+<img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+<img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+<img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+<img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+<img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+</div>
+<h6 class="review-text">690 REVIEWS</h6>
+</div>
+<h1 class="cp-text">Cloud Pillow</h1>
+<p class="para">Get the luxury and comfort of a hotel <br>pillow at home. This is supersoft, <br>lighweight and has a smart zipper<br> for adjusting its firmness.</p>
+<div class="price-div">
+<h3 class="price-1">Starts at ₹ 1,011</h3>
+<strike>
+<h3 class="price-2">₹ 1,189</h3>
+</strike>
+</div>
+<h4 class="emi-text-1">or ₹337/month</h4>
+<h4 class="emi-text-2">(No Cost EMI available for 3 & 6 months)</h4>
+<div class="shop-btn-div">
+<button type="button" class="shop-btn">SHOP NOW</button>
+</div>
+</div>
+
+
+<div class="first-div-2">
+  <image class="first-img " src="https://sleepycat.in/wp-content/uploads/2020/12/webite-mattress-320-x-320.png"></image>
+  <div class="flex-div">
+  <div class="stars-div">
+  <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+  <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+  <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+  <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+  <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+  </div>
+  <h6 class="review-text">456 REVIEWS</h6>
+  </div>
+  <h1 class="cp-text">Ultima Mattress</h1>
+  <p class="para">No more sleeping hot and sweaty!<br> Sleep 4° cooler on India’s first cooling <br>memory foam mattress with <br>CoolTEC™️ fabric.</p>
+  <div class="price-div">
+  <h3 class="price-1">Starts at ₹ 11,999</h3>
+  <strike>
+  <h3 class="price-2">₹ 13,999</h3>
+  </strike>
+  </div>
+  <h4 class="emi-text-1">or ₹3734/month</h4>
+  <h4 class="emi-text-2">(No Cost EMI available for 3 & 6 months)</h4>
+  <div class="shop-btn-div">
+  <button type="button" class="shop-btn">SHOP NOW</button>
+  </div>
+  </div>
+
+
+  <div class="first-div-2">
+    <image class="first-img" src="https://sleepycat.in/wp-content/uploads/2020/12/original.jpg"></image>
+    <div class="flex-div">
+    <div class="stars-div">
+    <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+    <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+    <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+    <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+    <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+    </div>
+    <h6 class="review-text">7,585 REVIEWS</h6>
+    </div>
+    <h1 class="cp-text">Original Mattress</h1>
+    <p class="para">Enjoy blissful sleep with the perfect <br>balance of comfort & support. Not <br>too soft, not too firm – it’s just right<br>For You!</p>
+    <div class="price-div">
+    <h3 class="price-1">Starts at ₹ 7,199</h3>
+    <strike>
+    <h3 class="price-2">₹ 8,999 </h3>
+    </strike>
+    </div>
+    <h4 class="emi-text-1">or ₹2400/month</h4>
+    <h4 class="emi-text-2">(No Cost EMI available for 3 & 6 months)</h4>
+    <div class="shop-btn-div">
+      <button type="button" class="shop-btn">SHOP NOW</button>
+    </div>
+    </div>
+
+
+    <div class="first-div-2 divss">
+      <image class="first-img" src="https://sleepycat.in/wp-content/uploads/2020/09/comforter.jpg"></image>
+      <div class="flex-div">
+      <div class="stars-div">
+      <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+      <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+      <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+      <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+      <img src="https://img.icons8.com/color/48/null/filled-star--v1.png" class="stars">
+      </div>
+      <h6 class="review-text">389 REVIEWS</h6>
+      </div>
+      <h1 class="cp-text">Reversible Comforter</h1>
+      <p class="para">Sleep warm and cosy all year round<br> with our range of comforters.</p>
+      <div class="price-div">
+      <h3 class="price-1-2">Starts at ₹ 1,499</h3>
+      <strike>
+      <h3 class="price-2-2">₹ 1,839</h3>
+      </strike>
+      </div>
+      <h4 class="emi-text-1">or ₹502/month</h4>
+      <h4 class="emi-text-2">(No Cost EMI available for 3 & 6 months)</h4>
+      <div class="shop-btn-div">
+      <button type="button" class="shop-btn-2">SHOP NOW</button>
+      </div>
+      </div>
+
+</div>
+
+ </section>
+
+ <section class="quiz-section">
+ <h1 class="quiz-header">Take our Product Quiz</h1>
+<h2 class="quiz-secondary-header">Give us 45 seconds & we'll hook you up with the right product</h2>
+<div class="quiz">
+<div class="mquiz">
+<image class="mquiz-image" src="https://sleepycat.in/wp-content/uploads/2023/02/mattressrecommender-homepage.jpg"></image>
+<h1 class="mquiz-header">Mattress Recommender</h1>
+<h2 class="mquiz-secondary-header">We've helped over 1,00,000+ sleepers find their perfect<br> mattress!<br> How about we help you too?</h2>
+<div class="mquiz-btn-div">
+<button type="button" class="mquiz-btn">Take the Mattress Quiz</button>
+</div>
+</div>
+
+
+<div class="pquiz">
+<image class="pquiz-image" src="https://sleepycat.in/wp-content/uploads/2023/02/pillowrecommender-homepage.jpg"></image>
+<h1 class="mquiz-header">Pillow Recommender</h1>
+<h2 class="mquiz-secondary-header">Try our 5 questions Pillow recommender and find out which <br>Pillow suits you best!</h2>
+<div class="mquiz-btn-div">
+<button type="button" class="mquiz-btn j">Take the Pillow Quiz</button>
+</div>
+</div>
+</div>
+ </section>
+
+
+ <section class="bundles-section">
+
+<h1 class="bundles-header">Upgrade to Bundles and save upto 20%</h1>
+<div class="three-divs">
+  <div class="first-div-2">
+    <image class="first-img sss" src="https://sleepycat.in/wp-content/uploads/2023/02/bedset-featured-img.jpg"></image>
+    
+    <h1 class="cp-text">Bedset Bundle</h1>
+   <p class="para">The bare necessities to sleep well</p>
+   <p class="para-1">Your Bundles Include:</p>
+   <ul class="ul-1">
+    <li>1 Fitted Bedsheet x 1</li>
+    <li>1 Cloud Pillow</li>
+   </ul>
+    <div class="price-div">
+    <h3 class="price-1">Starts at ₹ 3,141</h3>
+    <strike>
+    <h3 class="price-2">₹ 4,188 </h3>
+    </strike>
+    </div>
+    <h4 class="emi-text-1">or ₹1047/month</h4>
+    <h4 class="emi-text-2 emi-2 jk">(No Cost EMI available for 3 & 6 months)</h4>
+    <div class="shop-btn-div">
+    <button type="button" class="shop-btn bb">SHOP NOW</button>
+    </div>
+    </div>
+
+    <div class="first-div-2">
+      <image class="first-img sss" src="https://sleepycat.in/wp-content/uploads/2022/08/Everyday-Bundle-1.jpg"></image>
+      
+      <h1 class="cp-text">Everyday Bundle</h1>
+     <p class="para">All our essentials, rolled into one. Call this the <br>starter pack to your best sleep.</p>
+     <p class="para-1">Your Bundles Include:</p>
+     <ul class="ul-1">
+      <li>Original Mattress</li>
+      <li>Mattress Protector</li>
+      <li>Set of 2 standard Cloud Pillows</li>
+      <li>1 Double Size Reversible Comforter</li>
+     </ul>
+<div class="price-div">    <h3 class="price-1">Starts at ₹ 17,007</h3>
+      <strike>
+      <h3 class="price-2">₹ 22,676 </h3>
+      </strike>
+      </div>
+      <h4 class="emi-text-1">or ₹5669/month</h4>
+      <h4 class="emi-text-2 emi-2">(No Cost EMI available for 3 & 6 months)</h4>
+      <div class="shop-btn-div">
+      <button type="button" class="shop-btn">SHOP NOW</button>
+      </div>
+      </div>
+
+      <div class="first-div-2 kk">
+        <image class="first-img sss" src="https://sleepycat.in/wp-content/uploads/2019/08/Luxury-bundle-PDP-960x640-1.jpg"></image>
+        
+        <h1 class="cp-text">Luxury Bundle</h1>
+        <p class="para"> Sleep never felt so luxurious! Our latest and <br>greatest creations ensure you wake up feeling<br> pampered.</p>
+        <p class="para-1">Your Bundles Includes:</p>
+        <ul class="ul-1">
+          <li>Ultima Mattress</li>
+          <li>Set of 2 Standard CoolTec™ Memory Foam Pillows</li>
+          <li>1 Double Size Luxe Comforter</li>
+        </ul>
+        <div class="price-div">
+        <h3 class="price-1">Starts at ₹ 25,565</h3>
+        <strike>
+        <h3 class="price-2">₹ 34,087 </h3>
+        </strike>
+        </div>
+        <h4 class="emi-text-1">or ₹8522/month</h4>
+        <h4 class="emi-text-2 emi-2">(No Cost EMI available for 3 & 6 months)</h4>
+        <div class="shop-btn-div">
+        <button type="button" class="shop-btn gh">SHOP NOW</button>
+        </div>
+        </div>
+      
+</div>
+<div class="btn-bundles-div">
+  <button type="button" class="btn-bundles">View All Bundles</button>
+</div>
+ </section>
+
+
+ <section class="recommendation-section-1">
+  <div class="sleep-div-2">
+  <image class="sleeping-cat-logo-1" src="Screenshot 2023-02-26 at 1.40.57 PM.png"></image>
+</div>
+<h1 class="header-2">Still looking for the one?</h1>
+<h2 class="quiz-secondary-header">Tell us your issue & we'll hook you up with the right products</h2>
+
+<div class="main">
+
+<div class="main-four-divs">
+<div class="main-first-div q">
+  <div class="img-logo-div">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shopby_i_like_to_sleep_cool.png" alt="" class="logo-1">
+  </div>
+  <div class="two-tags two-tags-1">
+    <h1>I like to sleep cool</h1>
+    <h2 class="two-tags-g">3 products | Starts at ₹ 1,989</h2>
+  </div>
+  <div class="svg-div">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+    </svg>
+  </div>
+</div>
+
+<div class="main-first-div w">
+  <div class="img-logo-div">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shop_by_ortho_support.png" alt="" class="logo-2">
+  </div>
+  <div class="two-tags two-tags-2">
+    <h1> I need orthopaedic firm support</h1>
+    <h2 class="two-tags-g">3 products | Starts at ₹ 999</h2>
+  </div>
+  <div class="svg-div">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+    </svg>
+  </div>
+</div>
+
+<div class="main-first-div e">
+  <div class="img-logo-div">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shop_by_sleep_trouble.png" alt="" class="logo-3">
+  </div>
+  <div class="two-tags two-tags-3">
+    <h1>I need something that helps me sleep</h1>
+    <h2 class="two-tags-g">3 products | Starts at ₹ 1,699</h2>
+  </div>
+  <div class="svg-div">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+    </svg>
+  </div>
+</div>
+
+<div class="main-first-div r">
+  <div class="img-logo-div">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shopby_by_lounge.png" alt="" class="logo-4">
+  </div>
+  <div class="two-tags two-tags-4">
+    <h1>I like to lounge in bed</h1>
+    <h2 class="two-tags-g">3 products | Starts at ₹ 1,189</h2>
+  </div>
+  <div class="svg-div">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+    </svg>
+  </div>
+</div>
+</div>
+
+<div class="change-div">
+<div class="first-row">
+  <div class="both-div">
+  <div class="image-row-child">
+    <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-ultima-mattress-200-x-200.jpg" alt="" class="first-row-image">
+  </div>
+  <div class="text-row">
+     <h2>Ultima Mattress</h2>
+     <h2>InnovativeCoolTEC™️ Fabric</h2>
+     <h2>Starts at ₹ 13,999</h2>
+  </div>
+</div>
+</div>
+
+<div class="first-row">
+  <div class="both-div">
+  <div class="image-row-child">
+    <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-cooltec-mf-pillow-200x200-1.jpg" alt="" class="first-row-image">
+  </div>
+  <div class="text-row">
+     <h2>CoolTEC™️ Memory foam pillow</h2>
+     <h2>Cool & supportive pillow</h2>
+     <h2>Starts at ₹ 2,989</h2>
+  </div>
+</div>
+</div>
+<div class="first-row">
+  <div class="both-div">
+  <div class="image-row-child">
+    <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-muslin-200x200-1.jpg" alt="" class="first-row-image">
+  </div>
+  <div class="text-row">
+     <h2>Ultima Mattress</h2>
+     <h2>InnovativeCoolTEC™️ Fabric</h2>
+     <h2>Starts at ₹ 13,999</h2>
+  </div>
+</div>
+</div>
+  
+
+</div>
+
+ </section>
+
+   <script>
+    function disappear(){
+        setTimeout(() => {
+            document.getElementById("text").style.display="block";
+            document.getElementById("hh").style.paddingLeft="15px";
+        }, 500);
+    document.getElementById("hh").style.paddingLeft="400px";
+    document.getElementById("text").style.display="none"
+}
+   </script>
+</body>
+</html>
