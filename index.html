@@ -12,7 +12,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
     <div class="bar">
         <h1 class="offer-text">Offer Alert: Flat 15% off on all products | 72-hour delivery available for select pincodes in Delhi NCR, Bangalore, Mumbai & Kolkata
@@ -37,7 +39,7 @@
         <div class="store">
             
             <div class="color">
-        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="currentColor" class="bibi-shop-window" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="green" class="bibi-shop-window" viewBox="0 0 16 16">
             <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
           </svg>
           <h5 class="store-text">Stores and Experiences<br>Explore our Stores</h5>
@@ -115,7 +117,7 @@
 
 
  <div class="outerslider">
-<image class="carousel" src="Screenshot 2023-02-23 at 3.03.35 PM (1).png"></image>
+<image class="carousel" src="Screenshot 2023-02-23 at 3.03.35 PM (1).png" onclick="image()"></image>
  <div class="italic-text-div">
   <h1 class="italic-text">Browse our dreamy sleep range</h1>
  </div>
@@ -408,7 +410,7 @@
 <div class="main">
 
 <div class="main-four-divs">
-<div class="main-first-div q">
+<div class="main-first-div q" onclick="change()">
   <div class="img-logo-div">
     <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shopby_i_like_to_sleep_cool.png" alt="" class="logo-1">
   </div>
@@ -423,7 +425,7 @@
   </div>
 </div>
 
-<div class="main-first-div w">
+<div class="main-first-div w" onclick="change1()">
   <div class="img-logo-div">
     <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shop_by_ortho_support.png" alt="" class="logo-2">
   </div>
@@ -438,7 +440,7 @@
   </div>
 </div>
 
-<div class="main-first-div e">
+<div class="main-first-div e" onclick="change2()">
   <div class="img-logo-div">
     <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shop_by_sleep_trouble.png" alt="" class="logo-3">
   </div>
@@ -453,7 +455,7 @@
   </div>
 </div>
 
-<div class="main-first-div r">
+<div class="main-first-div r" onclick="change3()">
   <div class="img-logo-div">
     <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/shop_by/icon_shopby_by_lounge.png" alt="" class="logo-4">
   </div>
@@ -469,7 +471,7 @@
 </div>
 </div>
 
-<div class="change-div">
+<div class="change-div-1 change-div" id="first">
 <div class="first-row">
   <div class="both-div">
   <div class="image-row-child">
@@ -501,26 +503,346 @@
     <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-muslin-200x200-1.jpg" alt="" class="first-row-image">
   </div>
   <div class="text-row">
-     <h2>Ultima Mattress</h2>
-     <h2>InnovativeCoolTEC™️ Fabric</h2>
-     <h2>Starts at ₹ 13,999</h2>
+     <h2>Muslin</h2>
+     <h2>100% cotton throw</h2>
+     <h2>Starts at ₹ 2,999</h2>
   </div>
 </div>
 </div>
-  
-
 </div>
 
+<div class="change-div change-div-1-1" id="second">
+  <div class="first-row">
+    <div class="both-div">
+    <div class="image-row-child">
+      <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-latex-hybrid-200x-200.jpg" alt="" class="first-row-image">
+    </div>
+    <div class="text-row">
+       <h2>Hybrid Latex</h2>
+       <h2>5-zone support</h2>
+       <h2>Starts at ₹ 10,999</h2>
+    </div>
+  </div>
+  </div>
+  
+  <div class="first-row">
+    <div class="both-div">
+    <div class="image-row-child">
+      <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-contour-bamboo-mf-200x200-1.jpg" alt="" class="first-row-image">
+    </div>
+    <div class="text-row">
+       <h2>Contour Pillow</h2>
+       <h2>Dual loft pillow</h2>
+       <h2>Starts at ₹ 1,989</h2>
+    </div>
+  </div>
+  </div>
+  <div class="first-row">
+    <div class="both-div">
+    <div class="image-row-child">
+      <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-slim-200-x-200.jpg" alt="" class="first-row-image">
+    </div>
+    <div class="text-row">
+       <h2>Slim Pillow</h2>
+       <h2>Neutral spine positioning</h2>
+       <h2>Starts at ₹ 999</h2>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="change-div change-div-2-2" id="third">
+    <div class="first-row">
+      <div class="both-div">
+      <div class="image-row-child">
+        <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-weighted-blanket-200x200-1.jpg" alt="" class="first-row-image">
+      </div>
+      <div class="text-row">
+         <h2>Weighted Blanket</h2>
+         <h2>Anxiety and Pressure relief</h2>
+         <h2>Starts at ₹ 5,489</h2>
+      </div>
+    </div>
+    </div>
+    
+    <div class="first-row">
+      <div class="both-div">
+      <div class="image-row-child">
+        <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-cuddle-1-200x200-1.jpg" alt="" class="first-row-image">
+      </div>
+      <div class="text-row">
+         <h2>Full-body hug pillow</h2>
+         <h2>Cool & supportive pillow</h2>
+         <h2>Starts at ₹ 1,989</h2>
+      </div>
+    </div>
+    </div>
+    <div class="first-row">
+      <div class="both-div">
+      <div class="image-row-child">
+        <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-hybrid-pillow-200x200-1.jpg" alt="" class="first-row-image">
+      </div>
+      <div class="text-row">
+         <h2>Hybrid Pillow</h2>
+         <h2>Cushiony feel with support</h2>
+         <h2>Starts at ₹ 1,699</h2>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="change-div change-div-3-3" id="fourth">
+      <div class="first-row">
+        <div class="both-div">
+        <div class="image-row-child">
+          <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-comforter-200x200-1.jpg" alt="" class="first-row-image">
+        </div>
+        <div class="text-row">
+           <h2>Comforter</h2>
+           <h2>All season snuggles</h2>
+           <h2>Starts at ₹ 1,879</h2>
+        </div>
+      </div>
+      </div>
+      
+      <div class="first-row">
+        <div class="both-div">
+        <div class="image-row-child">
+          <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-cloud-200x200-1.jpg" alt="" class="first-row-image">
+        </div>
+        <div class="text-row">
+           <h2>Cloud Pillow</h2>
+           <h2>With adjustable softness</h2>
+           <h2>Starts at ₹ 1,189</h2>
+        </div>
+      </div>
+      </div>
+      <div class="first-row">
+        <div class="both-div">
+        <div class="image-row-child">
+          <img src="https://sleepycat.in/wp-content/uploads/2022/04/home-pref-muslin-200x200-1.jpg" alt="" class="first-row-image">
+        </div>
+        <div class="text-row">
+           <h2>Muslin</h2>
+           <h2>100% cotton throw</h2>
+           <h2>Starts at ₹ 2,999</h2>
+        </div>
+      </div>
+      </div>
+      </div>
  </section>
 
+ <section class="iframe-section">
+<h1>Get into your comfort zone</h1>
+<h4>It's time to chill out and do everything you love from your bed</h4>
+<div class="iframe">
+<iframe width="980" height="555" src="https://www.youtube.com/embed/3aQKLPAb8RY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+ </section>
+
+
+ <section class="small-section">
+    <h1 class="header-11">Why should SleepPenguin be your next mattress?</h1>
+    <div class="small-section-main">
+    <div class="small-sec-1 sec">
+<img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/home/zie_rating.png" alt="" class="cat-logo-2">
+<h1 class="header-idk">4.8 stars</h1>
+<h2>The internet's most loved mattress <br>(Zie's too!).</h2>
+    </div>
+    <div class="small-sec-2 sec">
+<img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/img2022/tech-specs/2022%20V1%20Icons_cover%20material_100_nights_free_trial.png" alt="" class="calender-logo">
+   <h1 class="header-idk">100-night free trial</h1>
+   <h2>Rest easy. If our mattress isn't a <br>match, return it within 100 days.</h2>
+</div>
+    <div class="small-sec-3 sec">
+      <div class="bus-logo">
+<svg width="52" height="40" viewBox="0 0 52 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.4121 6.88232H45.0003C48.3141 6.88232 51.0003 9.56862 51.0003 12.8823V29.8823C51.0003 30.9869 50.1049 31.8823 49.0003 31.8823H30.4121V6.88232Z" fill="white" stroke="#212121" stroke-miterlimit="10"></path><path d="M1 3C1 1.89543 1.89543 1 3 1H28.4118C29.5163 1 30.4118 1.89543 30.4118 3V31.8824H3C1.89543 31.8824 1 30.9869 1 29.8824V3Z" fill="white" stroke="#212121" stroke-miterlimit="10"></path><path d="M34.8232 12.2941C34.8232 11.7418 35.271 11.2941 35.8232 11.2941H37.588C42.5585 11.2941 46.5879 15.3235 46.5879 20.2941V20.5882C46.5879 21.1405 46.1402 21.5882 45.5879 21.5882H35.8232C35.271 21.5882 34.8232 21.1405 34.8232 20.5882V12.2941Z" fill="#D3AA7A" stroke="#212121" stroke-miterlimit="10"></path><circle cx="12.7652" cy="33.3531" r="5.88235" fill="#D3AA7A" stroke="#212121" stroke-miterlimit="10"></circle><circle cx="40.7056" cy="33.3531" r="5.88235" fill="#D3AA7A" stroke="#212121" stroke-miterlimit="10"></circle></svg></div>
+   <h1 class="header-idk">Serving across 30,000+ pincodes</h1>
+   <h2>with direct-to-doorstep delivery</h2>
+</div>
+  </div>
+ </section>
+
+ <section class="section-testimonials">
+  <h1 class="testimonials-header">Testimonials</h1>
+  <div class="um-div um-div-1" id="first-divv">
+    <div class="first-div-color">
+      <div class="first-div-color-1">
+    <h1 class="um-header">Ultima Mattress</h1>
+    <p class="um-para"><i class="fa fa-quote-left" aria-hidden="true"></i> The cooling effect of the fabric is amazing compared to other <br>  mattresses. It feels very comfortable & the quality is extraordinary.<br>Worth every penny I've invested in this mattress. I would highly<br> recommend it to others<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+   <div class="stars-2"> <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+    <h1 class="person-name">Rishu</h1>
+    <button type="button">SHOP ULTIMA MATTRESS</button>
+    </div>
+
+    <div class="first-div-color-2"></div>
+    <div class="first-div-color-3">
+      <img src="https://sleepycat.in/wp-content/uploads/2022/09/ultima-dimension-303-x-408.jpg" alt="">
+    </div>
+  </div>
+  </div>
+
+  <div class="um-div um-div-2" id="second-divv">
+    <div class="first-div-color">
+      <div class="first-div-color-1">
+    <h1 class="um-header">Original Mattress</h1>
+    <p class="um-para"><i class="fa fa-quote-left" aria-hidden="true"></i> 
+      Have been using this mattress for over 3 months now. I can confidently <br>say that this mattress is supremely comfortable and the medium firm <br>feel option we chose is perfect for what we were looking for. The overall<br> quality of the product exceeds expectations. Very happy with this<br> purchase<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+   <div class="stars-2"> <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+    <h1 class="person-name">Mukul Dave</h1>
+    <button type="button">SHOP ULTIMA MATTRESS</button>
+    </div>
+
+    <div class="first-div-color-2"></div>
+    <div class="first-div-color-3">
+      <img src="https://sleepycat.in/wp-content/uploads/2022/09/the-original-mattress-dimension-303-x-408.jpg" alt="">
+    </div>
+  </div>
+  </div>
+
+  <div class="um-div um-div-3" id="third-divv">
+    <div class="first-div-color">
+      <div class="first-div-color-1">
+    <h1 class="um-header">Latex Hybrid Mattress</h1>
+    <p class="um-para"><i class="fa fa-quote-left" aria-hidden="true"></i> We were looking for a firm surface to sleep on & this mattress has met all our expectations. It keeps my spine comfortably straight while giving the hips & back solid support, and shoulders well adjusted. This is a very good orthopaedic mattress to invest in<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+   <div class="stars-2"> <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+    <h1 class="person-name">Alien</h1>
+    <button type="button">SHOP ULTIMA MATTRESS</button>
+    </div>
+
+    <div class="first-div-color-2"></div>
+    <div class="first-div-color-3">
+      <img src="https://sleepycat.in/wp-content/uploads/2022/09/the-hybrid-latex-dimension-960-x-630.jpg" alt="">
+    </div>
+  </div>
+  </div>
+  <div class="three-circles">
+    <div class="first-circle circles" onclick="firstcircle()" id="firstcircle"></div>
+    <div class="second-circle circles" onclick="secondcircle()" id="secondcircle"></div>
+    <div class="third-circle circles" onclick="thirdcircle()" id="thirdcircle"></div>
+  </div>
+ </section>
+
+ <section class="section-brands">
+  <h1>In The Newzzz</h1>
+  <h2>Us creating a buzz on</h2>
+  <div class="brands-div">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/images/new_imgs/publishers/yourstory.png" alt="">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/images/new_imgs/publishers/indianretailer.png" alt="">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/images/new_imgs/publishers/cosmos.png" alt="">
+    <img src="https://sleepycat.in/wp-content/themes/sleepy-cat3/images/new_imgs/publishers/pioneer.png" alt="">
+  </div>
+  <button type="button">READ ALL ARTICLES</button>
+ </section>
+
+ <div class="first-div-color-4"></div>
+<section class="info-section">
+<h1>Learn more about the power of rest</h1>
+<div class="three-info">
+<div class="info-1">
+  <img src="https://sleepycat.in/wp-content/uploads/2022/02/Screenshot-2022-07-28-at-4.56.02-PM.png" alt="">
+  <h3>Why we sleep better in winters</h3>
+  <p>That pull of the blanket over your head, the <br>push of your face deeper into the pillow, and</p>
+  <button type="button">READ MORE</button>
+</div>
+<div class="info-1">
+  <img src="https://sleepycat.in/wp-content/uploads/2021/12/Screenshot-2022-07-28-at-6.00.09-PM-1.png" alt="">
+  <h3>Sleep is self-care</h3>
+  <p>Sleep care as self-care is trending and<br>Important for good health. Read on to find out</p>
+  <button type="button">READ MORE</button>
+</div>
+<div class="info-1">
+  <img src="https://sleepycat.in/wp-content/uploads/2021/11/Screenshot-2022-07-28-at-6.33.58-PM.png" alt="">
+  <h3>Mattress Cleaning 101</h3>
+  <p>That pull of the blanket over your head, the <br>push of your face deeper into the pillow, and</p>
+  <button type="button">READ MORE</button>
+</div>
+</div>
+</section>
+
+<section class="contact-section">
+  <div class="CARET">
+  <a class="cs-header" href="#info">Buy Mattresses, Pillows, and Beds Online at SleepyCat</a>
+  <i class="fa fa-angle-down" id="i-1"></i>
+</div>
+</section>
    <script>
+
     function disappear(){
         setTimeout(() => {
             document.getElementById("text").style.display="block";
             document.getElementById("hh").style.paddingLeft="15px";
         }, 500);
     document.getElementById("hh").style.paddingLeft="400px";
-    document.getElementById("text").style.display="none"
+    document.getElementById("text").style.display="none";
+}
+function change1(){
+  document.getElementById("first").style.display='none';
+  document.getElementById("second").style.display='block';
+  document.getElementById("second").style.paddingRight="67px"
+  document.getElementById("third").style.display='none';
+  document.getElementById("fourth").style.display='none';
+}
+function change(){
+  document.getElementById("first").style.display='block';
+  document.getElementById("second").style.display="none"
+  document.getElementById("third").style.display='none';
+  document.getElementById("fourth").style.display='none';
+
+}
+function change2(){
+  document.getElementById("first").style.display='none';
+  document.getElementById("second").style.display="none"
+  document.getElementById("third").style.display='block';
+  document.getElementById("fourth").style.display='none';
+  document.getElementById("third").style.paddingRight="51px";
+
+}
+function change3(){
+  document.getElementById("first").style.display='none';
+  document.getElementById("second").style.display="none"
+  document.getElementById("third").style.display='none';
+  document.getElementById("fourth").style.display='block';
+  document.getElementById("fourth").style.paddingRight="74px";
+}
+function firstcircle(){
+  document.getElementById("firstcircle").style.backgroundColor="green";
+  document.getElementById("secondcircle").style.backgroundColor="inherit";
+  document.getElementById("thirdcircle").style.backgroundColor="inherit";
+  document.getElementById("first-divv").style.display="block";
+  document.getElementById("second-divv").style.display="none";
+  document.getElementById("third-divv").style.display='none';
+}
+function secondcircle(){
+  document.getElementById("secondcircle").style.backgroundColor="green";
+  document.getElementById("firstcircle").style.backgroundColor="inherit";
+  document.getElementById("thirdcircle").style.backgroundColor="inherit";
+  document.getElementById("first-divv").style.display="none";
+  document.getElementById("second-divv").style.display="block";
+  document.getElementById("third-divv").style.display="none";
+}
+function thirdcircle(){
+  document.getElementById("thirdcircle").style.backgroundColor="green";
+  document.getElementById("secondcircle").style.backgroundColor="inherit";
+  document.getElementById("firstcircle").style.backgroundColor="inherit";
+  document.getElementById("first-divv").style.display="none";
+  document.getElementById("second-divv").style.display="none";
+  document.getElementById("third-divv").style.display="block";
 }
    </script>
 </body>
